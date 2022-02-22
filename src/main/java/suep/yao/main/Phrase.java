@@ -5,6 +5,9 @@ public class Phrase {
     private String english;
     private String chinese;
 
+    public Phrase() {
+    }
+
     @Override
     public String toString() {
         return "Phrase{" +
